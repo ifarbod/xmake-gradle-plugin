@@ -1,0 +1,8 @@
+xmake-gradle Kotlin integration
+Copyright (C) 2020-present, TBOOX Open Source Group.
+
+The XMake Gradle plugin implementation and install_artifacts.lua are derived
+from https://github.com/xmake-io/xmake-gradle, licensed under Apache-2.0.
+
+The Kotlin Gradle plugin project structure is derived from
+https://github.com/cortinico/kotlin-gradle-plugin-template, licensed under MIT.
