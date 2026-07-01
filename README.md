@@ -12,7 +12,7 @@ A Kotlin implementation of the XMake Gradle plugin. It configures, builds Androi
 
 ```kotlin
 plugins {
-    id("com.ifarbod.xmake-gradle-plugin") version "0.0.1"
+  id("ir.ifarbod.xmake-gradle-plugin") version "0.0.1"
 }
 ```
 
