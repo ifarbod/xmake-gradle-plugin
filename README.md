@@ -1,11 +1,10 @@
 # xmake-gradle (Kotlin)
 
-A Kotlin implementation of the XMake Gradle plugin. It configures, builds, rebuilds, installs, and cleans Android
-native libraries produced by [XMake](https://xmake.io).
+A Kotlin implementation of the XMake Gradle plugin. It configures, builds Android native libraries produced by [XMake](https://xmake.io).
 
 ## Requirements
 
-- XMake 2.9.6 or newer on `PATH`, or an explicit `program` path
+- XMake 3.0.3 or newer on `PATH`, or an explicit `program` path
 - An Android NDK, supplied explicitly or through the Android Gradle Plugin
 - A Gradle project containing an `xmake.lua` file
 
@@ -65,8 +64,6 @@ The tasks are registered only when the configured `xmake.lua` exists.
 ```shell
 ./gradlew preMerge
 ```
-
-The original Groovy implementation used for this port is retained in `old_groovy` for comparison.
 
 ## License
 
